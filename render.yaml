@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: baby-monitoring-server
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_KEY
+        sync: false
+      - key: DEVICE_ID
+        value: baby-monitor-01
