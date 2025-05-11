@@ -17,7 +17,7 @@ const isVercel = process.env.VERCEL === '1';
 
 // Enable CORS and JSON parsing
 app.use(cors({
-  origin: isProduction ? ['https://baby-monitoring-app.onrender.com', 'https://baby-monitoring-client.onrender.com'] : '*',
+  origin: isProduction ? ['https://baby-monitoring-app.onrender.com', 'https://baby-monitoring-client.onrender.com','https://baby-m0nitoring-client.onrender.com'] : '*',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
