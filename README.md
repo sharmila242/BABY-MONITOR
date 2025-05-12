@@ -12,7 +12,7 @@ This server provides a simple API for your baby monitoring application to receiv
 ## Setup Instructions
 
 ### Local Development
-
+### done
 1. Install dependencies:
    ```
    npm install
